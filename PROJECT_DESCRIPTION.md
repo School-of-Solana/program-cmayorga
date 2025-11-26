@@ -4,6 +4,8 @@
 
 A decentralized blog application built on Solana using the Anchor framework. This dApp allows users to create, update, and delete blog posts stored on-chain using Program Derived Addresses (PDAs).
 
+Application forntend is running to test at: https://defire.finance/solanablog/
+
 ## Project Overview
 
 This project provides a complete Solana dApp implementation with:
@@ -107,8 +109,6 @@ This design ensures:
 - Predictable addresses for frontend queries
 
 ### Frontend
-
-Application is running to test at: https://defire.finance/solanablog/
 
 **Current State:** UI demonstration with local state management
 
