@@ -288,17 +288,6 @@ solana_blog/
 3. **Input Validation**: Title and content length are validated on-chain
 4. **Account Ownership**: has_one constraints ensure proper account relationships
 
-## Future Enhancements
-
-- Add comment system with nested PDAs
-- Implement post categories and tags
-- Add like/reaction counters
-- Enable pagination for large post sets
-- Support markdown formatting
-- Add post search and filtering
-- Implement user profiles with bio and social links
-- Deploy to Mainnet
-
 ## Development Notes
 
 - Program uses Anchor 0.32.1 features including `InitSpace` derive macro
