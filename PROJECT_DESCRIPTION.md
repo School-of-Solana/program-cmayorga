@@ -108,6 +108,8 @@ This design ensures:
 
 ### Frontend
 
+Application is running to test at: https://defire.finance/solanablog/
+
 **Current State:** UI demonstration with local state management
 
 **Tech Stack:**
