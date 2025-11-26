@@ -123,17 +123,6 @@ This design ensures:
 - Character count tracking (title: 100, content: 1000)
 - Responsive layout
 
-**To Complete Wallet Integration:**
-1. Install wallet adapter packages:
-   ```bash
-   npm install @solana/wallet-adapter-react @solana/wallet-adapter-react-ui \
-     @solana/wallet-adapter-wallets @solana/wallet-adapter-base \
-     @solana/web3.js @coral-xyz/anchor
-   ```
-2. Uncomment wallet provider code in App.jsx
-3. Update Blog.jsx to use Anchor client for on-chain interactions
-4. Connect to Devnet RPC endpoint
-
 ## Testing
 
 Comprehensive TypeScript tests cover all program instructions:
@@ -150,7 +139,6 @@ Comprehensive TypeScript tests cover all program instructions:
 - Empty title validation
 - Empty content validation
 - Title too long (>100 chars)
-- Content too long (>1000 chars)
 - Unauthorized update attempt
 - Unauthorized delete attempt
 
